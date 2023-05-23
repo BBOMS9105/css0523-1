@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No.3</title>
+</head>
+<style>
+    html {
+        background-color: rgb(204, 208, 213);
+    }
+
+    #header {
+        text-align: center;
+        font-size: 26px;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    #content-wrapper {
+        min-height: 720px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #content {
+        margin: 20px 20px 20px 20px;
+        height: 600px;
+        width: 300px;
+        background-color: white;
+    }
+
+    #image {
+        background-color: black;
+        width: 300px;
+        height: 300px;
+    }
+
+    #text-top{
+        font-weight: bold;
+        font-size: 36px;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #p-mid {
+        text-align: center;
+        color: hsl(25, 100%, 50%);
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #p-bot{
+        overflow:visible;
+        text-align: center;
+        font-style: italic;
+    }
+
+    #learn-more {
+        display: flex;
+        justify-content: center;
+    }
+
+    #lm {
+        text-decoration: underline 2px #5d5c6a;
+        color : black;
+        font-weight: bold;
+    }
+
+    #lm:hover{
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div id="header">
+        <h1>
+            Extraordinary rooms with elegant, yet a rustic atmosphere
+        </h1>
+    </div>
+    <div id="content-wrapper">
+        <div id="content">
+            <div id="image">
+                <img src="/img/sun.jpg">
+            </div>
+            <div id="text-top">
+                    The Sun
+            </div>
+            <div id="text-middle">
+                <p id="p-mid">
+                    696,340km
+                </p>
+            </div>
+            <div id="text-bottom">
+                <p id="p-bot">
+                    The Sun's radius is about 695,000 kilometers, or 109 times that of Earth.
+                </p>
+            </div>
+            <div id="learn-more">
+                <a href="#" id="lm">LEARN MORE</a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="image">
+                <img src="/img/earth.jpg">
+            </div>
+            <div id="text-top">
+                    The Earth
+            </div>
+            <div id="text-middle">
+                <p id="p-mid">
+                    12,742km
+                </p>
+            </div>
+            <div id="text-bottom">
+                <p id="p-bot">
+                    Earth is the third planet from the Sun and the only place known in the universe where life has originated and found habitability.
+                </p>
+            </div>
+            <div id="learn-more">
+                <a href="#" id="lm">LEARN MORE</a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="image">
+                <img src="/img/moon.jpg">
+            </div>
+            <div id="text-top">
+                    The Moon
+            </div>
+            <div id="text-middle">
+                <p id="p-mid">
+                    3,475km
+                </p>
+            </div>
+            <div id="text-bottom">
+                <p id="p-bot">
+                    The Moon is Earth's only natural satellite.
+                </p>
+            </div>
+            <div id="learn-more">
+                <a href="#" id="lm">LEARN MORE</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

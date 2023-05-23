@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No.5</title>
+    <style>
+        
+        div {
+        }
+        
+        .w100 {
+            width: 100%;
+        }
+
+        .h100 {
+            height: 100%;
+        }
+
+        #wrapper {
+            margin: 0 auto;
+            width: 950px;
+            height: 800px;
+            font-size: 0px;
+        }
+
+        #wrapper .item {
+            box-sizing: border-box;
+            width : 50%;
+            height: 100%;
+            display: inline-block;
+            font-size: 16px;
+            vertical-align: top;
+            
+            /*
+            img는 inline이므로 
+            글씨처럼 오른쪽 정렬
+            text-align: right;
+            */
+        }
+
+        #wrapper .item .small-image{
+            width: 49%;
+            box-sizing: border-box;
+            height: 260px;
+            display: inline-block;
+        }
+        #wrapper .item .large-image{
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        #wrapper .item > div {
+            box-sizing: border-box;
+            padding: 10px;
+        }
+        .back {
+            height: 531px;
+        }
+        
+        .right-top{
+            height: 580px;            
+
+        }
+
+        .text-container .title {
+            text-align: center;
+            font-size: 70px;
+            background-color: rgb(144, 235, 255);
+        }
+
+        .text-container .sub-title{
+            font-size: 24px;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div class="item">
+            <div class="w100">
+                <span class="small-image"></span>
+                <img class="small-image" src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/eafde1a79bad5760a1191e33/pexels-photo-4048717.jpeg">
+            </div>
+            <div class="back">
+                <img class="large-image" src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/416ef9832e2b56b38026509c/pexels-photo-4048760.jpeg">
+            </div>
+        </div>
+        <div class="item">
+            <div class="right-top">
+                <img class="large-image" src="https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/227811db75c057b39ed6df43/pexels-photo-4048755.jpeg">
+            </div>
+            <div class="text-container">
+                <div class="title">E a s t e r</div>
+                <div class="sub-title">H O L I D A Y</div>
+                <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

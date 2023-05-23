@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No.1</title>
+    <style>
+
+        #header-wrapper{
+            display: block;
+            position: relative;
+            align-items: center;
+        }
+
+        #background-img{
+            width: 1260px;
+            height: 830px;
+            position: relative;
+        }
+
+        #header-top {
+            border: 1px solid red;
+            top: 0%;
+            vertical-align: middle;
+            width: 100%;
+            position: absolute;
+            height: 200px;
+        }
+
+        #header-middle {
+            border: 1px solid red;
+            position: absolute;
+            width: 100%;
+            text-align: center;
+            top: 30%;
+            color: white;
+            font-size: 36px;
+        }
+
+        #greeting {
+            font-weight: bold;
+        }
+
+        #ment {
+            font-weight: lighter;
+        }
+
+        a {
+            text-decoration: underline dotted 1px;
+            color: white;
+        }
+
+        a:hover{
+            -webkit-animation: fadeout 1s;
+            
+        }
+
+        @-webkit-keyframes fadeout {
+            from{
+                opacity: 1;
+            }
+            to{
+                opacity: 0;
+            }
+            
+        }
+
+        button {
+            color: white;
+            width: 300px;
+            height: 80px;
+            border-radius: 10px;
+            font-size: 24px;
+            position: absolute;
+            top: 50%;
+            right: 38%;
+            border: 1px solid white;
+            background-color: rgba(255, 255, 255, 0.15);
+        }
+        
+        button:hover{
+            cursor: pointer;
+            -webkit-animation: transition 1s;
+            
+        }
+        @-webkit-keyframes transition {
+            from{
+                background-color: rgba(255, 255, 255, 0.15);
+            }
+            to{
+                background-color: rgba(255, 255, 255, 0.4);
+            }
+            
+        }
+
+
+        button:
+    </style>
+</head>
+
+<header>
+
+    <div id="header-wrapper">
+        <div id="background">
+            <img id="background-img" src="/img/sg9.jpg">
+        </div>
+        
+        <div id="header-top"></div>
+        <div id="header-middle">
+            <div id="greeting">Welcome to Tessellate</div><br>
+            <div id="ment">A free responsive site temlplate by <a href="#">HTML5 UP</a></div>
+        </div>
+        <div id="header-bottom">
+            <button>
+                Proceed to second phase
+            </button>
+        </div>
+        
+    </div>
+
+
+    
+</header>
+<body>
+
+
+    
+</body>
+</html>
